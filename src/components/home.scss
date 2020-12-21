@@ -1,0 +1,42 @@
+.home {
+  min-height: 70vh;
+}
+.home h1 {
+  font-family: Montserrat;
+  font-weight: normal;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius);
+  border: 0.4px solid royalblue;
+  color: white;
+  background: var(--clr-black);
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: var(--transition);
+}
+.btn:hover {
+  background: var(--clr-grey-5);
+}
+.btnContainer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.aboutme-btn {
+  margin-right: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  letter-spacing: 1px;
+}
+.contactme-btn {
+  letter-spacing: 1px;
+}

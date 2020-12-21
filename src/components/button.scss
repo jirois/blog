@@ -1,0 +1,60 @@
+/* menu button */
+.menu-btn {
+  padding: 1rem 0;
+}
+.menu-icon {
+  width: 60px;
+  height: 35px;
+  position: relative;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  margin: 1rem;
+  cursor: pointer;
+  z-index: 500;
+}
+.menu-icon span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 90%;
+  background: hsl(98, 61%, 56%);
+  transform: rotate(0deg);
+  opacity: 1;
+  left: 0;
+  border-radius: 4px;
+  transition: 0.35s ease-in-out;
+}
+.menu-icon span:nth-child(1) {
+  top: 0;
+  transform-origin: left center;
+}
+.menu-icon span:nth-child(2) {
+  top: 10px;
+  transition: left center;
+  width: 72%;
+}
+.menu-icon span:nth-child(3) {
+  top: 21px;
+  width: 55%;
+  background: hsl(7, 89%, 39%);
+  transform-origin: left center;
+}
+
+.menu-icon.open span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 0px;
+  left: 0px;
+  width: 80%;
+  background: hsl(7, 89%, 39%);
+}
+.menu-icon.open span:nth-child(2) {
+  opacity: 0;
+  width: 0%;
+}
+
+.menu-icon.open span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 33px;
+  left: 0px;
+  width: 80%;
+}
