@@ -1,10 +1,18 @@
-import React from 'react';
-import { useGlobalContext } from '../context/context'
+import React, {useState}from 'react';
+// import { useGlobalContext } from '../context/context'
+import Sidebar from './sidebar'
+
 import './button.scss'
 const Button = () => {
-    const {isToggle, toggleClass } = useGlobalContext()
-    console.log(isToggle)
+    const [isToggle, setToggle] = useState(false)
+    const toggleClass = () => {
+        setToggle(!isToggle)
+    }
+    const closeSidebar = () => {
+        setToggle(false)
+    }
     return (
+        <>
         <div 
         aria-pressed='false'
         tabIndex='0'
@@ -18,6 +26,8 @@ const Button = () => {
             <span></span>   
             <span></span>
         </div>
+        <Sidebar isToggle={isToggle} closeSidebar={closeSidebar} />
+        </>
     )
 }
 export default Button;
