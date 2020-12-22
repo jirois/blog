@@ -3,7 +3,6 @@ import { useGlobalContext } from '../context/context'
 import './button.scss'
 const Button = () => {
     const {isToggle, toggleClass } = useGlobalContext()
-    console.log(isToggle)
     return (
         <div 
         aria-pressed='false'
