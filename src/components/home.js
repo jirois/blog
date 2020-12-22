@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
 import './home.scss'
 
@@ -50,10 +50,10 @@ const Home = () => {
         <h1 style={{color: 'white'}}>I'm {author?.name || ``}</h1>
         <div className='btnContainer'>
                 <button className='btn aboutme-btn'>
-                        About Me
+                    <Link to="/about">  About Me</Link> 
                 </button>
             <button className='btn contactme-btn'>
-             Contact Me
+             <Link to="/contact">Contact Me</Link>
             </button>
         </div>
         </div>
