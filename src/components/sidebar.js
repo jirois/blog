@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'gatsby'
-import {useGlobalContext} from '../context/context'
+// import {useGlobalContext} from '../context/context'
 import './sidebar.scss'
-const Sidebar = () => {
-    const { isToggle} = useGlobalContext()
+const Sidebar = ({ isToggle , closeSidebar}) => {
+    // const { isToggle,  closeSidebar} = useGlobalContext()
     return (
         
-       <aside 
-    //    role='button'
-    //    tabIndex='-77'
-    //    onKeyDown={closeSidebar}
-    //    onClick={closeSidebar}
+       <div 
+       role='button'
+       tabIndex='-77'
+       onKeyDown={closeSidebar}
+       onClick={closeSidebar}
        
        className={
            `${isToggle ? 'sidebar open' : 'sidebar'}`
@@ -29,7 +29,7 @@ const Sidebar = () => {
                   </li>
             
     </ul>
-    </aside> 
+    </div> 
     )
 }
 export default Sidebar;

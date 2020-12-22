@@ -1,11 +1,11 @@
 import React from 'react';
 import Button from './button'
-import Sidebar from './sidebar'
+// import Sidebar from './sidebar'
 const Header = () => {
     return (
         <div>
             <Button />
-           <Sidebar />
+           {/* <Sidebar /> */}
         </div>
     )
 }
