@@ -32,6 +32,10 @@ const Home = () => {
 //   const social = data.site.siteMetadata?.social
 
   const avatar = data?.avatar?.childImageSharp?.fixed
+
+
+  
+  
     return (
         <div className='home'>
             <div className='avatar-container'>
@@ -47,7 +51,9 @@ const Home = () => {
           />
         } 
         </div>
-        <h1 style={{color: 'white'}}>I'm {author?.name || ``}</h1>
+        <div>
+        <h1 style={{color: 'white'}}>Hi There, I'm {author.name}</h1>
+        </div>
         <div className='btnContainer'>
                 <button className='btn aboutme-btn'>
                     <Link to="/about">  About Me</Link> 

@@ -1,0 +1,18 @@
+.contact {
+  margin-top: 0;
+
+  h1 {
+    margin-top: -1rem;
+    font-weight: 600;
+    font-size: 5rem;
+    text-align: center;
+    color: #9c9c9c9c;
+  }
+}
+@media screen and (min-width: 800px) {
+  .contact h1 {
+    margin-top: -4rem;
+    font-size: 14rem;
+    text-align: center;
+  }
+}

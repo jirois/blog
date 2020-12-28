@@ -45,3 +45,9 @@
 .contactme-btn {
   letter-spacing: 1px;
 }
+
+@media screen and (min-width: 800px) {
+  .btn {
+    padding: 0.5rem 1.3rem;
+  }
+}

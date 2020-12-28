@@ -165,6 +165,7 @@ p {
   --x-height-multiplier: 0.35;
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
   padding: var(--spacing-0);
+  text-align: justify;
 }
 
 ul,
@@ -330,4 +331,32 @@ a:focus {
   ol {
     list-style-position: inside;
   }
+}
+
+// Blog header
+
+.blog-header h1 {
+  margin-top: -4rem;
+  font-weight: 600;
+  font-size: 5rem;
+  text-align: center;
+  color: #9c9c9c9c;
+  margin-bottom: 4rem;
+}
+
+.blogposts {
+  background: white;
+  padding: 1rem 2rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 2px -3px 5px rgba(0, 0, 0, 0.1);
+}
+.blogposts:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.backbtn {
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+  list-style-type: none;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  display: block;
 }

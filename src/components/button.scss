@@ -11,12 +11,13 @@
   margin: 1rem;
   cursor: pointer;
   z-index: 500;
+  outline: transparent;
 }
 .menu-icon span {
   display: block;
   position: absolute;
   height: 4px;
-  width: 90%;
+  width: 55%;
   background: hsl(98, 61%, 56%);
   transform: rotate(0deg);
   opacity: 1;

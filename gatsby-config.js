@@ -3,7 +3,7 @@ module.exports = {
     title: `Omas Ajiri's personal website and blog`,
     author: {
       name: `Omas Ajiri`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `I'm interest in clean and intuitive codes.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
@@ -34,6 +34,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 630,
+              linkImagesToOriginal: false
             },
           },
           {
