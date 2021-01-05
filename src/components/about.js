@@ -11,8 +11,8 @@ const About = () => {
                 <div className="single-slide slide-1"></div>
             
                 <div className="single-slide slide-2">
-                    <p>I am developer</p>
                 </div>
+                <p>I am Developer</p>
             </div>
         </div>
     )
