@@ -12,7 +12,6 @@ const About = () => {
             
                 <div className="single-slide slide-2">
                 </div>
-                <p>I am Developer</p>
             </div>
         </div>
     )
