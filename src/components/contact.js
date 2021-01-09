@@ -8,7 +8,7 @@ const Contact = () => {
 
             <div className="about-wrap">
             
-                    <p>I am developer</p>
+                    <p>I am developer and a writer</p>
             
             </div>
         </div>
