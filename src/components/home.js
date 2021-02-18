@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
 import './home.scss'
+import { WordsFading } from '../common/wordsFadding'
 
 const Home = () => {
     const data = useStaticQuery(graphql`
@@ -52,7 +53,8 @@ const Home = () => {
         } 
         </div>
         <div>
-        <h1 style={{color: 'white'}}>Hi There, I'm {author.name}</h1>
+        <h1 style={{color: 'white'}}>Hi There, <br />
+        <span> I'm <WordsFading /></span></h1>
         </div>
         <div className='btnContainer'>
                 <button className='btn aboutme-btn'>
