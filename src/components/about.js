@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.scss'
-
+import {Carousel } from '../common/aboutCarousel'
 const About = () => {
     return (
         <div className="about">
@@ -8,10 +8,7 @@ const About = () => {
 
             <div className="about-wrap">
             
-                <div className="single-slide slide-1"></div>
-            
-                <div className="single-slide slide-2">
-                </div>
+               <Carousel />
             </div>
         </div>
     )
