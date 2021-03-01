@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Omas Ajiri's personal website and blog`,
+    title: `Omas Ajiri's personal site and blog`,
     author: {
       name: `Omas Ajiri`,
       summary: `I'm interest in clean and intuitive codes.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Omas Ajiri personal website and blog.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
       twitter: `Ajiriomas`,
