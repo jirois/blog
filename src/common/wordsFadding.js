@@ -22,6 +22,8 @@ const Wrapper = styled.div`
   & span {
     text-align: center;
     width: 100%;
+    font-family: roboto;
+    
   }
   @media only screen and (max-width: 80em) {
     width: 150px;

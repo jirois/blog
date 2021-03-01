@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+.bg {
+  margin-top: -25px;
+  position: absolute;
+  top: 0;
+  left: 1%;
+  width: 100%;
+  height: 95%;
+  background-size: cover;
+  background-position: center;
+  will-change: opacity;
+}
+.bg > span {
+  position: absolute;
+  bottom: -3rem;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  font-family: "Krona One", sans-serif;
+  color: #005b99;
+}
+
+@media screen and (min-width: 400px) {
+  .bg {
+    top: 0;
+    left: 0%;
+    width: 50vw;
+    height: 100vh;
+  }
+  .bg > span {
+    right: -15rem;
+    top: 0;
+  }
+}

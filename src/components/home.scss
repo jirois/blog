@@ -1,11 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
 .home {
   min-height: 70vh;
 }
-.home h1 {
-  font-family: Montserrat;
+.heading-home {
+  font-family: "Krona One", sans-serif;
   font-weight: normal;
   margin-bottom: 3rem;
   text-align: center;
+  color: white;
 }
 .avatar-container {
   display: flex;

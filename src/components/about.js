@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.scss'
-import {Carousel } from '../common/aboutCarousel'
+import Carousel  from '../common/aboutCarousel'
 const About = () => {
     return (
         <div className="about">
@@ -9,6 +9,7 @@ const About = () => {
             <div className="about-wrap">
             
                <Carousel />
+              
             </div>
         </div>
     )

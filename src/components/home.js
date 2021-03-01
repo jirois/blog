@@ -53,7 +53,7 @@ const Home = () => {
         } 
         </div>
         <div>
-        <h1 style={{color: 'white'}}>Hi There, <br />
+        <h1 className="heading-home">Hi There, <br />
         <span> I'm <WordsFading /></span></h1>
         </div>
         <div className='btnContainer'>
