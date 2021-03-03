@@ -16,9 +16,10 @@ $shadows-big: multiple-box-shadow(100);
   background: #000;
   top: 0;
   left: 0;
-  right: 0;
+  // right: 0;
   bottom: 0;
   height: 100vh;
+  width: 100vw;
   overflow: hidden;
   z-index: -1000;
 }

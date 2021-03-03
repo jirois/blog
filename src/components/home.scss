@@ -6,7 +6,7 @@
 .heading-h1 {
   font-family: "Krona One", sans-serif;
   font-weight: normal;
-  margin-bottom: 3rem;
+  margin-bottom: 1.8rem;
   text-align: center;
   color: white;
 }
@@ -50,6 +50,9 @@
 }
 
 @media screen and (min-width: 800px) {
+  .heading-h1 {
+    font-size: 3rem;
+  }
   .btn {
     padding: 0.5rem 1.3rem;
   }
