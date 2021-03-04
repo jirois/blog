@@ -10,8 +10,8 @@ const WORDS = [
 ];
 
 const Wrapper = styled.div`
+  width: 6rem;
   font-weight: 600;
-  width: 150px;
   position: relative;
   display: inline-block;
   text-align: center;
@@ -25,18 +25,7 @@ const Wrapper = styled.div`
     font-family: roboto;
     
   }
-  @media only screen and (max-width: 80em) {
-    width: 150px;
-  }
-  @media only screen and (max-width: 56.25em) {
-    width: 150px;
-  }
-  @media only screen and (max-width: 80em) {
-    width: 150px;
-  }
-  @media only screen and (max-width: 25em) {
-    width: 150px;
-  }
+  
 `;
 
 export const WordsFading = () => {
