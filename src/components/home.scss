@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 
 .home {
-  min-height: 70vh;
+  margin-top: -5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .heading-h1 {
   font-family: "Krona One", sans-serif;
@@ -11,16 +16,22 @@
   color: white;
 }
 .avatar-container {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  // display: flex;
+  // justify-content: center;
+  // align-content: center;
+}
+.logo-container {
+  // display: flex;
+  // justify-content: center;
+  // align-content: center;
+  margin-bottom: 2.5rem;
 }
 
 .btn {
   font-size: 1rem;
   padding: 0.5rem 0.85rem;
   border-radius: var(--radius);
-  border: 0.8px solid #3369ff;
+  border: 1px solid hsl(197, 88%, 42%);
   color: white;
   background: var(--clr-black);
   cursor: pointer;

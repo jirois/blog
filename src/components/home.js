@@ -14,6 +14,13 @@ const Home = () => {
           }
         }
       }
+      logo: file(absolutePath: { regex: "/logo.png/" }) {
+        childImageSharp {
+          fixed(width: 60, height: 60, quality: 95) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
       site {
         siteMetadata {
           author {
@@ -34,12 +41,28 @@ const Home = () => {
 
   const avatar = data?.avatar?.childImageSharp?.fixed
 
+  const logo = data?.logo?.childImageSharp?.fixed
+  
+
+
 
   
   
     return (
         <div className='home'>
-
+           <div className='logo-container'>
+          {logo && 
+          <Image
+            fixed={logo}
+            alt={author?.name || ``}
+            className="home-logo"
+            imgStyle={{
+                borderRadius: `50%`,
+               
+            }} 
+          />
+          }
+          </div>
             <div className='avatar-container'>
           {avatar && 
           <Image
