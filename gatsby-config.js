@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Omas Ajiri Website`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Omas Ajiri`,
+      summary: `Lives in Nigeria and interested in nature, humanity and intuitive codes.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Omas Ajiri personal website and blog.`,
+    siteUrl: `/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `ajiriomas`,
     },
   },
   plugins: [
