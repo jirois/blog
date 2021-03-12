@@ -6,7 +6,7 @@ module.exports = {
       summary: `Lives in Nigeria and interested in nature, humanity and intuitive codes.`,
     },
     description: `Omas Ajiri personal website and blog.`,
-    siteUrl: `/`,
+    siteUrl: `https://omasajiri.com`,
     social: {
       twitter: `ajiriomas`,
     },
