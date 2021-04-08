@@ -1,3 +1,5 @@
+@import '../style.scss';
+
 .contact {
   margin-top: 0;
 
@@ -6,7 +8,36 @@
     font-weight: 600;
     font-size: 5rem;
     text-align: center;
-    color: #9c9c9c9c;
+    color: var(--color-accent);
+    font-family: var(--font-heading);
+  }
+}
+
+.contact-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .contact-message{
+    margin: 1rem 0 3rem;
+
+    p{
+      font-family: var(--font-body);
+      color: var(--color-text);
+      word-spacing: var(--spacing-1);
+    }
+    .contact-btn {
+        color: var(--color-main);
+        text-decoration: none;
+        border-color: var(--color-main);
+      }
+    
+  }
+
+  .contact-or{
+    font-size: 3rem;
+    font-style: italic;
   }
 }
 @media screen and (min-width: 800px) {
@@ -17,7 +48,3 @@
   }
 }
 
-a.contact-btn {
-  color: #3369ff;
-  text-decoration: none;
-}
