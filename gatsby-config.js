@@ -67,7 +67,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#005b99`,
         display: `minimal-ui`,
-        icon: `content/assets/omas-ajiri.png`,
+        icon: `content/assets/logo.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
