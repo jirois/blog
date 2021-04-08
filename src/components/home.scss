@@ -22,7 +22,7 @@
   align-content: center;
 }
 .logo-container {
-  // margin-top: -5rem;
+  margin-top: -5rem;
   margin-bottom: 2.5rem;
 }
 
@@ -66,5 +66,8 @@
   }
   .btn {
     padding: 0.5rem 1.3rem;
+  }
+  .logo-container{
+    margin-top: 0;
   }
 }
