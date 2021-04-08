@@ -37,7 +37,7 @@ const Carousel = () =>  {
     
     <animated.div key={key}
     className="bg"
-    style={{...props, backgroundImage: `url(${item.url})`}} ><span>{item.text}</span></animated.div>
+    style={{...props, backgroundImage: `url(${item.url})`}} ><span className="about-text">{item.text}</span></animated.div>
    
   ))
 }

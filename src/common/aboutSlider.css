@@ -9,10 +9,12 @@
   background-size: cover;
   background-position: center;
   will-change: opacity;
+  border-radius: 15px;
 }
-.bg > span {
+.bg > .about-text {
   position: absolute;
-  bottom: -3rem;
+  bottom: -3.5rem;
+  /* padding-bottom: 4rem; */
   font-size: 1.5rem;
   white-space: nowrap;
   font-family: "Krona One", sans-serif;
