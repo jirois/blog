@@ -1,3 +1,5 @@
+@import '../styles/styles.scss';
+
 .about {
   margin-top: 0;
 
@@ -6,8 +8,10 @@
     font-weight: 600;
     font-size: 5rem;
     text-align: center;
-    color: #9c9c9c9c;
+    // color: #9c9c9c9c;
     margin-bottom: 3.5rem;
+    color: var(--color-accent);
+    font-family: var(--font-heading);
   }
 }
 @media screen and (min-width: 800px) {
@@ -24,7 +28,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 @media screen and (min-width: 800px) {
   .about-wrap {
