@@ -2,8 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
 import './home.scss'
-import { WordsFading } from '../common/wordsFadding'
-
+import {WordsFading} from '../common/wordsFadding'
 const Home = () => {
     const data = useStaticQuery(graphql`
     query HomeQuery {
