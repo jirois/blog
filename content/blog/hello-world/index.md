@@ -5,17 +5,17 @@ description: "This article is centre on how you can get start with vscode.
 "
 ---
 
-So you interested in writing codes! Then you need a code editor and you need one you can feel at home with.
+So you are interested in writing codes! Nice one. You need a code editor.
 
-So let me introduce you to the one I thought of as being both beginner friendly and highly customisable - [VISUAL STUDIO CODE](https://code.visualstudio.com/)
+Let me introduce you to the one I thought of as being both beginner friendly and highly customisable - [VISUAL STUDIO CODE](https://code.visualstudio.com/)
 
-My opinion on this doesn't have to be final, here are other persons opinions on it:
+My opinion on this doesn't have to be final, here are other person's opinions on it:
 
 > VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy! - Pavithra Kodmad.
 
 > VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️ - Una Kravets
 
-This article is not centre on the awesomeness of vscode, though will be cool too but on how you can get start with it.
+This article is not centre on the awesomeness of vscode, though that would have been very cool, the article however, is focused on how you can get start with vscode. so shall we begin.
 
 #### On Windows
 
@@ -40,7 +40,7 @@ After unzipping, double click on the file to install and wait for it to finish i
 
 **Alternatively**
 
-### Setting up your very first work.
+### Setting up your very first work station on vscode.
 
 Let's proceed to the post installation phase of the article.
 After installing it opens you to the welcome page like so.
