@@ -1,231 +1,92 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: A simple guide on how to setup vscode for beginners on windows and mac OS
+date: "2021-03-21T22:12:03.284Z"
+description: "This article is centre on how you can get start with vscode.
+"
 ---
 
-This is my first post on my new fake blog! How exciting!
+So you interested in writing codes! Then you need a code editor and you need one you can feel at home with.
 
-I'm sure I'll write a lot more interesting things in the future.
+So let me introduce you to the one I thought of as being both beginner friendly and highly customisable - [VISUAL STUDIO CODE](https://code.visualstudio.com/)
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+My opinion on this doesn't have to be final, here are other persons opinions on it:
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+> VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy! - Pavithra Kodmad.
 
-![Chinese Salty Egg](./salty_egg.jpg)
+> VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️ - Una Kravets
 
-You can also write code blocks here!
+This article is not centre on the awesomeness of vscode, though will be cool too but on how you can get start with it.
 
-```js
-const saltyDuckEgg = "chinese preserved food product"
-```
+#### On Windows
 
-| Number | Title                                    | Year |
-| :----- | :--------------------------------------- | ---: |
-| 1      | Harry Potter and the Philosopher’s Stone | 2001 |
-| 2      | Harry Potter and the Chamber of Secrets  | 2002 |
-| 3      | Harry Potter and the Prisoner of Azkaban | 2004 |
+##### Step One
 
-[View raw (TEST.md)](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
+Download visual studio code for windows from the [visual studio code website]() here to your system. Then open the folder to install the editor.
 
-This is a paragraph.
+#### On Mac
 
-    This is a paragraph.
+In mac, the installation is much more simpler than in windows.
 
-# Header 1
+##### Step One
 
-## Header 2
+Head to [visual studio code](https://code.visualstudio.com/) to download vscode for mac.
 
-    Header 1
-    ========
+![Image of viscode download page for mac](./img/mac_vsc16.jpeg)
 
-    Header 2
-    --------
+##### Step two
 
-# Header 1
+Go to your downloads (on your computer) and unzip the viscode file you just download by double clicking on it.
+After unzipping, double click on the file to install and wait for it to finish installing. And that my friend is how you do it.
 
-## Header 2
+**Alternatively**
 
-### Header 3
+### Setting up your very first work.
 
-#### Header 4
+Let's proceed to the post installation phase of the article.
+After installing it opens you to the welcome page like so.
 
-##### Header 5
+![Image of viscode download page for mac](./img/mac_vsc12.jpeg)
 
-###### Header 6
+On the welcome page you will see the start heading among the others. Underneath it you have the new file and the open folder or clone repository subheadings. Our starting point will be the open folder subheading.
 
-    # Header 1
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
+**Creating a Folder**
 
-# Header 1
+Next we create a folder. start by clicking on the open to create a new folder.
 
-## Header 2
+![Image of viscode download page for mac](./img/mac_vsc11.jpeg)
 
-### Header 3
+On clicking on the open folder, it opens up your computer folder directory. To create a new folder click on the new.
 
-#### Header 4
+![Image of viscode download page for mac](./img/mac_vsc10.jpeg)
 
-##### Header 5
+![Image of viscode download page for mac](./img/mac_vsc9.jpeg)
 
-###### Header 6
+Click on the open button to open the new folder you just created to your visual studio code.
 
-    # Header 1 #
-    ## Header 2 ##
-    ### Header 3 ###
-    #### Header 4 ####
-    ##### Header 5 #####
-    ###### Header 6 ######
+**Creating a new file and opening it a browser**
 
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+Back to the visual studio. If you observe very closely, you will at the bottom of the editor that color has changed from purple to blue indicating that you now have a folder opened.
 
-    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+Time to create your first file. For the course of this article, we will be creating a html file.
+So to create a file hover your mouse over the name of the folder you created to bring up the create new file icon.
 
-> ## This is a header.
->
-> 1. This is the first list item.
-> 2. This is the second list item.
->
-> Here's some example code:
->
->     Markdown.generate();
+![Image of viscode download page for mac](./img/mac_vsc3.jpeg)
 
-    > ## This is a header.
-    > 1. This is the first list item.
-    > 2. This is the second list item.
-    >
-    > Here's some example code:
-    >
-    >     Markdown.generate();
+Click on the icon to create a new html. You decide to name it anything, say index.html.
+![Image of viscode download page for mac](./img/mac_vsc5.jpeg)
 
-- Red
-- Green
-- Blue
+**Configuring vscode to open your html file on the browser**
 
-* Red
-* Green
-* Blue
+Say you have successfully created a html file and you now want to view it on the browser to see how it looks. Vscode does not come with a default functionality to do that, but that is not a problem at all. Like I have mentioned above, vscode is highly customizable owning its rich store of extensions which one can use to extend its functionality. We will now add the function of opening our html files in the browser by installing the ‘open in browser’ plugin from the vscode extension store. Follow the picture representation to do that:
 
-- Red
-- Green
-- Blue
+![Image of viscode download page for mac](./img/mac_vsc2.jpeg)
 
-```markdown
-- Red
-- Green
-- Blue
+On clicking on the extensions icon it opens up this next page where you can search for any extension/plugin available on vscode to install. In our case, we will type “open in browser” on the search bar which brings up a list of plugins. W will go for the very first one on the list. Click on it and it opens up information about the plugins along with documentation and installation button.
 
-* Red
-* Green
-* Blue
+![Image of viscode download page for mac](./img/mac_vsc1.jpeg)
 
-- Red
-- Green
-- Blue
-```
+After installation, go back to the file explorer, and use this command SHIFT+ALT+B to bring up the 'open in browser' tab. choose any of the browser to view your file.
 
-- `code goes` here in this line
-- **bold** goes here
+![Image of viscode download page for mac](./img/mac_vsc.jpeg)
 
-```markdown
-- `code goes` here in this line
-- **bold** goes here
-```
-
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-
-```markdown
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-```
-
-1. `code goes` here in this line
-1. **bold** goes here
-
-```markdown
-1. `code goes` here in this line
-1. **bold** goes here
-```
-
-Paragraph:
-
-    Code
-
-<!-- -->
-
-    Paragraph:
-
-        Code
-
----
-
----
-
----
-
----
-
----
-
-    * * *
-
-    ***
-
-    *****
-
-    - - -
-
-    ---------------------------------------
-
-This is [an example](http://example.com "Example") link.
-
-[This link](http://example.com) has no title attr.
-
-This is [an example][id] reference-style link.
-
-[id]: http://example.com "Optional Title"
-
-    This is [an example](http://example.com "Example") link.
-
-    [This link](http://example.com) has no title attr.
-
-    This is [an example] [id] reference-style link.
-
-    [id]: http://example.com "Optional Title"
-
-_single asterisks_
-
-_single underscores_
-
-**double asterisks**
-
-**double underscores**
-
-    *single asterisks*
-
-    _single underscores_
-
-    **double asterisks**
-
-    __double underscores__
-
-This paragraph has some `code` in it.
-
-    This paragraph has some `code` in it.
-
-![Alt Text](https://placehold.it/200x50 "Image Title")
-
-    ![Alt Text](https://placehold.it/200x50 "Image Title")
+That my friend, is how you can get started with vscode. Visual studio code is very versatile code editor, there much more to it. I will strongly recommend that you go through the [documentation here](https://code.visualstudio.com/docs) to find out more for yourself.
