@@ -3,7 +3,7 @@ module.exports = {
     title: `Omas Ajiri's personal site and blog`,
     author: {
       name: `Omas Ajiri`,
-      summary: `I'm interest in clean and intuitive codes.`,
+      summary: `I'm interested in clean and intuitive codes.`,
     },
     description: `Omas Ajiri personal website and blog.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
