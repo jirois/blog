@@ -61,7 +61,7 @@ After unzipping, double click on the file to install and wait for it to finish i
 ### Setting up your very first work station on vscode.
 
 Let's proceed to the post installation phase of the article.
-After installing it opens you to the welcome page like so. The welcome page of visual studio code for mac and windows are the same. So from here now on, we will be using the same example for the both (mac and windows).
+After installing, it opens you to the welcome page like so. The welcome page of visual studio code for mac and windows are the same. So from here now on, we will be using the same example for the both (mac and windows).
 
 ![Image of viscode download page for mac](./img/mac_vsc12.jpeg)
 
@@ -109,5 +109,8 @@ On clicking on the extensions icon it opens up this next page where you can sear
 After installation, go back to the file explorer, and use this command SHIFT+ALT+B to bring up the 'open in browser' tab. choose any of the browser to view your file.
 
 ![Image of viscode download page for mac](./img/mac_vsc.jpeg)
+
+**For Windows**
+Press the F5 key to bring up 'open in browser' tab, then go ahead to open your file in any browser available on your computer.
 
 That my friend, is how you can get started with vscode. Visual studio code is very versatile code editor, there much more to it. I will strongly recommend that you go through the [documentation here](https://code.visualstudio.com/docs) to find out more for yourself.
