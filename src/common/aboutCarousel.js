@@ -10,7 +10,7 @@ const slides = [
 },
 {
     id: 2,
-    url: 'https://res.cloudinary.com/jinncy/image/upload/v1613725530/mblog/omas_1_jf5l2k.jpg',
+    url: 'https://res.cloudinary.com/jinncy/image/upload/v1618306772/mblog/omas_4_hqkkw4.png',
     text: 'Am a writer'
 },
 {

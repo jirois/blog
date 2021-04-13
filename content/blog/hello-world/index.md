@@ -1,5 +1,5 @@
 ---
-title: A simple guide on how to setup vscode for beginners on windows and mac OS
+title: A simple guide on how to setup vscode for beginners - on windows and mac OS
 date: "2021-03-21T22:12:03.284Z"
 description: "This article is centre on how you can get start with vscode.
 "
@@ -23,9 +23,27 @@ This article is not centre on the awesomeness of vscode, though that would have 
 
 Download visual studio code for windows from the [visual studio code website]() here to your system. Then open the folder to install the editor.
 
+##### Step Two
+
+Open the downloaded file, when opened ensure to accept the terms and conditions by selecting the I accept radio button.
+
+![Image of vsc in win installation page](./img/win_vsc3.jpeg)
+
+##### Step Three
+
+Ensure the added to path check button is marked, then proceed to next.
+![Image of vsc in win installation page](./img/win_vsc2.jpeg)
+
+##### Step Four
+
+Last but not least, click on the install button to finish the installation
+![Image of vsc in win installation page](./img/win_vsc1.jpeg)
+
+And voila! You now have visual studio code installed on your computer. You can now proceed to 'the setting up your very first workstation' section of this article, to learn how to set up a workstation.
+
 #### On Mac
 
-In mac, the installation is much more simpler than in windows.
+On mac, the installation is much more simpler than in windows.
 
 ##### Step One
 
@@ -43,7 +61,7 @@ After unzipping, double click on the file to install and wait for it to finish i
 ### Setting up your very first work station on vscode.
 
 Let's proceed to the post installation phase of the article.
-After installing it opens you to the welcome page like so.
+After installing it opens you to the welcome page like so. The welcome page of visual studio code for mac and windows are the same. So from here now on, we will be using the same example for the both (mac and windows).
 
 ![Image of viscode download page for mac](./img/mac_vsc12.jpeg)
 
@@ -60,6 +78,9 @@ On clicking on the open folder, it opens up your computer folder directory. To c
 ![Image of viscode download page for mac](./img/mac_vsc10.jpeg)
 
 ![Image of viscode download page for mac](./img/mac_vsc9.jpeg)
+
+**For Windows the interface is slightly different**, here:
+![Image of vsc in windows for creating a folder](./img/win_vsc.jpeg)
 
 Click on the open button to open the new folder you just created to your visual studio code.
 
@@ -83,7 +104,7 @@ Say you have successfully created a html file and you now want to view it on the
 
 On clicking on the extensions icon it opens up this next page where you can search for any extension/plugin available on vscode to install. In our case, we will type “open in browser” on the search bar which brings up a list of plugins. W will go for the very first one on the list. Click on it and it opens up information about the plugins along with documentation and installation button.
 
-![Image of viscode download page for mac](./img/mac_vsc1.jpeg)
+![Image of vsc install page](./img/mac_vsc1.jpeg)
 
 After installation, go back to the file explorer, and use this command SHIFT+ALT+B to bring up the 'open in browser' tab. choose any of the browser to view your file.
 
