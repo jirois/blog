@@ -1,4 +1,4 @@
-@import '../style.scss';
+@import "../style.scss";
 
 .contact {
   margin-top: 0;
@@ -12,70 +12,103 @@
     font-family: var(--font-heading);
     margin-bottom: 0;
   }
-}
 
-.contact-wrap{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  .contact-message{
-    margin: 1rem 0 3rem;
-
-    p{
-      font-family: var(--font-body);
-      color: var(--color-text);
-      word-spacing: var(--spacing-1);
-    }
-    .contact-btn {
-        color: var(--color-main);
-        text-decoration: none;
-        border-color: var(--color-main);
-      }
-    
-  }
-
-  .contact-or{
-    font-size: 1rem;
-    font-style: italic;
-    margin-top: 3.5rem;
-  }
-  .social-text{
-    display: block;
-    padding: 2rem 3rem;
-    font-style: italic;
-    font-size: 0.8rem;
-  }
-  .contact-media {
+  .contact-wrap {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-   
-    .social {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-decoration: none;
-      color: var(--color-text);
-      cursor: pointer;
+    .message-box {
+      border: 5px solid #fefefe;
+      padding: 1rem;
+      margin-top: 3rem;
+      box-shadow: -3px -2px 5px rgba(0, 0, 0, 0.2),
+        2px 3px 5px rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
 
-      .icons {
-        font-size: 2.2rem;
-        margin-bottom: 0.4rem;
+      .contact-img {
+        width: 80px;
+        height: 80px;
+        background-color: #005b99;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: -3.5rem;
+        margin-bottom: 1rem;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50%;
+        }
       }
-      .facebook-icon {
-        color: #3b5998;
+
+      p {
+        font-size: 1.1em;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #333;
+        letter-spacing: 1px;
+        text-align: justify;
+        line-height: 1.6;
+        font-style: italic;
       }
-      .twitter-icon {
-        color: #00acee;
+      .contact-btn {
+        display: block;
+        border: 0;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        background-color: #005b99;
+        text-shadow: 1px 1px #456ab5;
+        box-shadow: 0 0.4em #005b99;
+        text-align: center;
+        text-decoration: none;
       }
-      .linkledin-icon {
-        color: #0077b5
+      .contact-btn:active {
+        background-color: #005b99;
+        transform: translateY(0.1em);
+        box-shadow: 0 0.3em #456ab5;
       }
     }
 
+    .contact-or {
+      font-size: 1rem;
+      font-style: italic;
+      margin-top: 3.5rem;
+    }
+    .social-text {
+      display: block;
+      padding: 2rem 3rem;
+      font-style: italic;
+      font-size: 0.8rem;
+    }
+    .contact-media {
+      display: flex;
+      justify-content: space-between;
 
+      .social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: var(--color-text);
+        cursor: pointer;
+
+        .icons {
+          font-size: 2.2rem;
+          margin-bottom: 0.4rem;
+        }
+        .facebook-icon {
+          color: #3b5998;
+        }
+        .twitter-icon {
+          color: #00acee;
+        }
+        .linkledin-icon {
+          color: #0077b5;
+        }
+      }
+    }
   }
 }
 @media screen and (min-width: 800px) {
@@ -83,6 +116,6 @@
     margin-top: -4rem;
     font-size: 14rem;
     text-align: center;
+    color: black;
   }
 }
-
