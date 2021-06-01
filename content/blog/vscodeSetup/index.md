@@ -56,8 +56,6 @@ Head to [visual studio code](https://code.visualstudio.com/) to download vscode 
 Go to your downloads (on your computer) and unzip the viscode file you just download by double clicking on it.
 After unzipping, double click on the file to install and wait for it to finish installing. And that my friend is how you do it.
 
-**Alternatively**
-
 ### Setting up your very first work station on vscode.
 
 Let's proceed to the post installation phase of the article.

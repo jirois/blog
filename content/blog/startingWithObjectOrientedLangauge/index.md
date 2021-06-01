@@ -1,11 +1,15 @@
 ---
 title: Why not start with object-oriented Programming Language
 date: "2020-11-21T22:12:03.284Z"
-description: "Why start with an object-oriented programming language especially when coming from a non-computer science background? Folks, this advice is actually to my old self when I first started my journey into the programming world, and now that I see more clearly "
+description: "Why start with an object-oriented programming."
 ---
 
 ###Introduction
-Why start with an object-oriented programming language especially when coming from a non-computer science background? Folks, this advice is actually to my old self when I first started my journey into the programming world, and now that I see more clearly, I think someone might benefit from this. But before I go further, let me clear this up, I am not here to argue for or against object-oriented programming, neither do I favour one form of programming over the other. So what’s my point exactly, I am here to throw a little light into why I think it will be more favourable to start with an object-oriented programming language as a beginner coming from a non-computer science background like myself.
+Why start with an object-oriented programming language especially when coming from a non-computer science background?
+
+Folks, this advice is actually to my old self when I first started my journey into the programming world, and now that I see more clearly, I think someone might benefit from this. But before I go further, let me clear this up, I am not here to argue for or against object-oriented programming, neither do I favour one form of programming over the other.
+
+So what’s my point exactly, I am here to throw a little light into why I think it will be more favourable to start with an object-oriented programming language as a beginner coming from a non-computer science background like myself.
 
 ![alt text](https://res.cloudinary.com/jinncy/image/upload/v1606821809/memes_folder/start_meme_ebos35.jpg)
 
