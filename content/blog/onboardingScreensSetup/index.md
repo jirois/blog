@@ -8,8 +8,6 @@ description: "In this article I will work you through how to setup onboarding sc
 Onboarding screens have become increasingly vital in apps development and among developers owing to the role they play. In this article I will working you through how to setup one quickly on the go, using the android navigation and viewPager2. So without further Ado, let’s dive in!
 Here is what we going to build.
 
-![onboarding screens image](./img/onboarding_screens.jpeg)
-
 [GITHUB](https://github.com/jirois/SimpleOnboardingScreens) for the xml codes
 
 Now, because am going to use fragments, I will have to extend the FragmentStateAdapter class. I will like to keep the explanations brief, since the aim of this article is work you quickly through how you can setup a simple onboarding screen. For more explanation of the ViewPager2 and its benefits, please see the document here. Alright, time to see the codes in action.
