@@ -6,10 +6,9 @@ description: "In this article I will work you through how to setup onboarding sc
 ---
 
 Onboarding screens have become increasingly vital in apps development and among developers owing to the role they play. In this article I will working you through how to setup one quickly on the go, using the android navigation and viewPager2. So without further Ado, let’s dive in!
-Let’s begin with building of the various xml files for the screens.
 Here is what we going to build.
 
-![onboarding screens image](./img/image_onboard.jpg)
+![onboarding screens image](./img/onboarding_screen.jpeg)
 
 [GITHUB](https://github.com/jirois/SimpleOnboardingScreens) for the xml codes
 
